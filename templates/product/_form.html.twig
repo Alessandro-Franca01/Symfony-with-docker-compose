@@ -1,0 +1,14 @@
+
+<div class="form-group">
+    {{ form_label(form.name) }}
+    {{ form_widget(form.name) }}
+    {{ form_errors(form.nome) }}
+</div>
+
+<div class="form-group">
+    {{ form_label(form.price) }}
+    {{ form_widget(form.price) }}
+    {{ form_errors(form.price) }}
+</div>
+
+{{ form(form) }}
