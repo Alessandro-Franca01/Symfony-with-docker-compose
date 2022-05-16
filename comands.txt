@@ -1,0 +1,4 @@
+# Nesse arquivo vou colocar alguns comandos do console a medida que for usando:
+
+# Executar query no console:
+php bin/console dbal:run-sql 'SELECT * FROM product'
